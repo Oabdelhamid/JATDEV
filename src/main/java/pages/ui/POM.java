@@ -12,6 +12,7 @@ public class POM {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
+
     }
 
 }
