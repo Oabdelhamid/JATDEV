@@ -32,6 +32,7 @@ public class JatDevTest extends baseClass {
                 .IncreaseQuantityTo()
                 .AddToCart()
                 .GoToCart();
+
     }
 
     @Test (dependsOnMethods = {"UserLogin","GoToHomepage","gotoProductPage"})

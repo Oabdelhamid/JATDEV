@@ -6,6 +6,7 @@
   "city" : "test city",
   "country" : "test country",
   "state" : "test state",
-  "postalCode" : "12345"
+  "postalCode" : "12345",
+
 
 }

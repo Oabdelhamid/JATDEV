@@ -41,6 +41,7 @@ public class Checkout extends POM{
         wait.until(ExpectedConditions.elementToBeClickable(checkoutButton3));
         driver.findElement(checkoutButton3).click();
 
+
         return this;
     }
 

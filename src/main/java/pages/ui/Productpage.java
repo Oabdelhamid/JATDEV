@@ -20,6 +20,7 @@ public class Productpage extends POM {
         By quantityField = By.xpath("//button[@data-test='increase-quantity']");
         driver.findElement(quantityField).click();
         return this;
+
     }
 
     public Productpage AddToCart() {

@@ -8,5 +8,6 @@ public class TestDataReader {
     public static Map<String, String> getTestData(String filePath) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         return mapper.readValue(new File(filePath), Map.class);
+
     }
 }
