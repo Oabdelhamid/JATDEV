@@ -1,0 +1,11 @@
+{
+  "email" : "omar@gmail.com",
+  "password" : "51224164Test123@",
+
+  "street" : "test street",
+  "city" : "test city",
+  "country" : "test country",
+  "state" : "test state",
+  "postalCode" : "12345"
+
+}
