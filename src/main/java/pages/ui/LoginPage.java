@@ -10,6 +10,7 @@ public class LoginPage extends POM {
 
     public LoginPage(WebDriver driver) {
         super(driver);
+
     }
 
     public LoginPage navigateToLoginPage() {

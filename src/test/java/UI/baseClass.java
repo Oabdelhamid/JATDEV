@@ -17,6 +17,7 @@ public class baseClass {
 
     @BeforeClass
     public void setup() throws IOException {
+
         options = new ChromeOptions();
         options.addArguments("--start-maximized")
                 .addArguments("--disable-notifications")

@@ -23,6 +23,7 @@ public class JatDevTest extends baseClass {
              .navigateToHomePage().
              WaitForHomePageToLoad()
              .SelectFirstProduct();
+
     }
 
     @Test (dependsOnMethods = {"UserLogin","GoToHomepage"})

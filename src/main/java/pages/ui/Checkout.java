@@ -31,6 +31,7 @@ public class Checkout extends POM{
         driver.findElement(stateField).clear();
         driver.findElement(stateField).sendKeys(state);
 
+
         driver.findElement(countryField).clear();
         driver.findElement(countryField).sendKeys(country);
 
